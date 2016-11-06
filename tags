@@ -1,0 +1,781 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFSIZE	c/page170.c	1;"	d	file:
+BiTNode	c/yanweimin/chapter6/bitreehead.h	/^typedef struct BiTNode$/;"	s
+BiTNode	c/yanweimin/chapter6/bitreehead.h	/^}BiTNode, *Bitree;$/;"	t	typeref:struct:BiTNode
+BiThrNode	c/yanweimin/chapter6/bitreehead.h	/^typedef struct BiThrNode$/;"	s
+BiThrNode	c/yanweimin/chapter6/bitreehead.h	/^}BiThrNode, *BiThrTree;$/;"	t	typeref:struct:BiThrNode
+BiThrTree	c/yanweimin/chapter6/bitreehead.h	/^}BiThrNode, *BiThrTree;$/;"	t	typeref:struct:BiThrNode
+Bitree	c/yanweimin/chapter6/bitreehead.h	/^}BiTNode, *Bitree;$/;"	t	typeref:struct:BiTNode
+CATCOLORS	c/kechuang/r.geom/local_proto.h	/^} CATCOLORS;$/;"	t	typeref:struct:__anon6
+CN	c/kechuang/r.geom/local_proto.h	/^  CN, \/* concave slope *\/$/;"	e	enum:__anon5
+CNT	c/kechuang/r.geom/local_proto.h	/^  CNT \/* counter *\/$/;"	e	enum:__anon5
+CV	c/kechuang/r.geom/local_proto.h	/^  CV, \/* convex slope *\/$/;"	e	enum:__anon5
+DEGREE2RAD	c/kechuang/r.geom/local_proto.h	45;"	d
+DEPENDENCIES	c/kechuang/r.geom/Makefile	/^DEPENDENCIES = $(RASTERDEP) $(GISDEP)$/;"	m
+ERROR	c/yanweimin/chapter1/linklist/linklist.c	3;"	d	file:
+ERROR	c/yanweimin/chapter3/queue.c	7;"	d	file:
+ERROR	c/yanweimin/chapter4/hstring.c	4;"	d	file:
+ERROR	c/yanweimin/chapter6/bitree.c	5;"	d	file:
+ERROR	c/yanweimin/chapter6/bitreehead.h	4;"	d
+ERROR	c/yanweimin/chapter6/queue.h	8;"	d
+ElemType	c/yanweimin/chapter1/linklist/linklist.c	/^typedef int ElemType;$/;"	t	file:
+Elemtype	c/tanhaoqiang/chapter9/example9_8.h	/^typedef stu Elemtype;$/;"	t
+Elemtype	c/tanhaoqiang/chapter9/linklist.h	/^typedef int Elemtype;$/;"	t
+Elemtype	c/yanweimin/chapter3/mystack.c	/^typedef int Elemtype;$/;"	t	file:
+Elemtype	c/yanweimin/chapter3/queue.c	/^}Elemtype, *Pelemtype;$/;"	t	typeref:union:__anon12	file:
+Elemtype	c/yanweimin/chapter3/stack.c	/^}Elemtype;$/;"	t	typeref:union:__anon14	file:
+Elemtype	c/yanweimin/chapter3/stack.h	/^}Elemtype;$/;"	t	typeref:union:__anon16
+Elemtype	c/yanweimin/chapter6/bitreehead.h	/^}Elemtype;$/;"	t	typeref:union:__anon20
+FCOLORS	c/kechuang/r.geom/local_proto.h	/^} FCOLORS;$/;"	t	typeref:struct:__anon7
+FL	c/kechuang/r.geom/local_proto.h	/^  FL, \/* flat *\/$/;"	e	enum:__anon5
+FORMS	c/kechuang/r.geom/local_proto.h	/^} FORMS;$/;"	t	typeref:enum:__anon5
+FS	c/kechuang/r.geom/local_proto.h	/^  FS, \/* footslope *\/$/;"	e	enum:__anon5
+GLOBAL	c/kechuang/r.geom/local_proto.h	11;"	d
+GLOBAL	c/kechuang/r.geom/local_proto.h	9;"	d
+GRADE	c/kechuang/r.geom/local_proto.h	32;"	d
+H	c/kechuang/r.geom/local_proto.h	/^GLOBAL double H,V;$/;"	v
+Hstring	c/yanweimin/chapter4/hstring.c	/^}Hstring, *Phstring;$/;"	t	typeref:struct:_hstring	file:
+IN	c/exc1_13.c	3;"	d	file:
+IN	c/page20.c	3;"	d	file:
+IO	c/kechuang/r.geom/local_proto.h	/^} IO;$/;"	t	typeref:struct:__anon2
+LIBES	c/kechuang/r.geom/Makefile	/^LIBES = $(RASTERLIB) $(GISLIB) $(MATHLIB)$/;"	m
+LNode	c/yanweimin/chapter1/LNode/LNode.c	/^typedef struct LNode$/;"	s	file:
+LNode	c/yanweimin/chapter1/LNode/LNode.c	/^}LNode, *LinkList;$/;"	t	typeref:struct:LNode	file:
+LNode	c/yanweimin/chapter1/linklist/linklist.c	/^typedef struct LNode$/;"	s	file:
+LNode	c/yanweimin/tianqin/chapter3/Lstack.c	/^typedef struct LNode$/;"	s	file:
+LNode	c/yanweimin/tianqin/chapter3/Lstack.c	/^}LNode;$/;"	t	typeref:struct:LNode	file:
+Link	c/yanweimin/chapter1/linklist/linklist.c	/^}*Link, *Position;$/;"	t	typeref:struct:LNode	file:
+Link	c/yanweimin/chapter6/bitreehead.h	/^typedef enum PointerTag{Link, Thread}; \/\/Link==0 pointer \/\/Thread==1 thread$/;"	e	enum:PointerTag
+LinkList	c/yanweimin/chapter1/LNode/LNode.c	/^}LNode, *LinkList;$/;"	t	typeref:struct:LNode	file:
+LinkList	c/yanweimin/chapter1/linklist/linklist.c	/^}LinkList;$/;"	t	typeref:struct:__anon10	file:
+M2PI	c/kechuang/r.geom/local_proto.h	28;"	d
+MAIN	c/kechuang/r.geom/main.c	21;"	d	file:
+MAPS	c/kechuang/r.geom/local_proto.h	/^} MAPS;$/;"	t	typeref:struct:__anon1
+MAX	c/kechuang/r.geom/local_proto.h	49;"	d
+MAXLINE	c/exc1_16.c	2;"	d	file:
+MAXLINE	c/exc1_18.c	2;"	d	file:
+MAXLINE	c/myexc/mygetline.c	2;"	d	file:
+MAXLINE	c/page116.c	3;"	d	file:
+MAXLINE	c/page27.c	2;"	d	file:
+MAXLINE	c/page68.c	2;"	d	file:
+MAXSIZE	c/yanweimin/chapter3/queue.c	4;"	d	file:
+MAXSIZE	c/yanweimin/chapter6/queue.h	5;"	d
+MAXSIZE	c/yanweimin/tianqin/chapter2/sqlist.c	3;"	d	file:
+MAXSIZE	c/yanweimin/tianqin/chapter3/Sqstack.c	2;"	d	file:
+MIN	c/kechuang/r.geom/local_proto.h	50;"	d
+MODULE_TOPDIR	c/kechuang/r.geom/Makefile	/^MODULE_TOPDIR = ..\/..$/;"	m
+MULTI	c/kechuang/r.geom/local_proto.h	/^} MULTI;$/;"	t	typeref:struct:__anon3
+Node	c/tanhaoqiang/chapter9/example9_8.h	/^typedef struct Node$/;"	s
+Node	c/tanhaoqiang/chapter9/example9_8.h	/^}Node, *pNode;$/;"	t	typeref:struct:Node
+Node	c/tanhaoqiang/chapter9/linklist.h	/^typedef struct Node$/;"	s
+Node	c/tanhaoqiang/chapter9/linklist.h	/^}Node, *pNode;$/;"	t	typeref:struct:Node
+OK	c/yanweimin/chapter1/linklist/linklist.c	4;"	d	file:
+OK	c/yanweimin/chapter3/queue.c	6;"	d	file:
+OK	c/yanweimin/chapter4/hstring.c	3;"	d	file:
+OK	c/yanweimin/chapter6/bitree.c	4;"	d	file:
+OK	c/yanweimin/chapter6/bitreehead.h	3;"	d
+OK	c/yanweimin/chapter6/queue.h	7;"	d
+OUT	c/exc1_13.c	2;"	d	file:
+OUT	c/page20.c	4;"	d	file:
+PATTERN	c/kechuang/r.geom/local_proto.h	/^} PATTERN;$/;"	t	typeref:struct:__anon4
+PGM	c/kechuang/r.geom/Makefile	/^PGM = r.geomorphon$/;"	m
+PI	c/kechuang/r.geom/local_proto.h	24;"	d
+PI	c/knking/chapter2/t3.c	6;"	d	file:
+PI2	c/kechuang/r.geom/local_proto.h	16;"	d
+PI2PERCENT	c/kechuang/r.geom/local_proto.h	37;"	d
+PI4	c/kechuang/r.geom/local_proto.h	20;"	d
+PK	c/kechuang/r.geom/local_proto.h	/^  PK, \/* peak, summit *\/$/;"	e	enum:__anon5
+PT	c/kechuang/r.geom/local_proto.h	/^  PT, \/* pit, depression *\/$/;"	e	enum:__anon5
+Pelemtype	c/yanweimin/chapter3/queue.c	/^}Elemtype, *Pelemtype;$/;"	t	typeref:union:__anon12	file:
+Pelemtype	c/yanweimin/chapter6/bitreehead.h	/^}QElemtype, *Pelemtype;$/;"	t	typeref:union:__anon22
+Phstring	c/yanweimin/chapter4/hstring.c	/^}Hstring, *Phstring;$/;"	t	typeref:struct:_hstring	file:
+PointerTag	c/yanweimin/chapter6/bitreehead.h	/^typedef enum PointerTag{Link, Thread}; \/\/Link==0 pointer \/\/Thread==1 thread$/;"	g
+Position	c/yanweimin/chapter1/linklist/linklist.c	/^}*Link, *Position;$/;"	t	typeref:struct:LNode	file:
+Pqueue	c/yanweimin/chapter3/queue.c	/^}Queue, *Pqueue;$/;"	t	typeref:struct:__anon13	file:
+Pqueue	c/yanweimin/chapter6/bitreehead.h	/^}Queue, *Pqueue;$/;"	t	typeref:struct:__anon23
+QElemtype	c/yanweimin/chapter6/bitreehead.h	/^}QElemtype, *Pelemtype;$/;"	t	typeref:union:__anon22
+Queue	c/yanweimin/chapter3/queue.c	/^}Queue, *Pqueue;$/;"	t	typeref:struct:__anon13	file:
+Queue	c/yanweimin/chapter6/bitreehead.h	/^}Queue, *Pqueue;$/;"	t	typeref:struct:__anon23
+RAD2DEGREE	c/kechuang/r.geom/local_proto.h	46;"	d
+RI	c/kechuang/r.geom/local_proto.h	/^  RI, \/* ridge *\/$/;"	e	enum:__anon5
+SH	c/kechuang/r.geom/local_proto.h	/^  SH, \/* shoulder *\/$/;"	e	enum:__anon5
+SL	c/kechuang/r.geom/local_proto.h	/^  SL, \/* slope *\/$/;"	e	enum:__anon5
+STACKINCREMENT	c/yanweimin/chapter3/mystack.c	5;"	d	file:
+STACKINCREMENT	c/yanweimin/chapter3/stack.c	5;"	d	file:
+STACKINCREMENT	c/yanweimin/chapter3/stack.h	5;"	d
+STACKINCREMENT	c/yanweimin/chapter6/stack.h	6;"	d
+STACK_INIT_SIZE	c/yanweimin/chapter3/mystack.c	4;"	d	file:
+STACK_INIT_SIZE	c/yanweimin/chapter3/stack.c	4;"	d	file:
+STACK_INIT_SIZE	c/yanweimin/chapter3/stack.h	4;"	d
+STACK_INIT_SIZE	c/yanweimin/chapter6/stack.h	5;"	d
+STRING	c/kechuang/r.geom/local_proto.h	/^typedef char* STRING;$/;"	t
+SqStack	c/yanweimin/chapter3/mystack.c	/^}*SqStack;$/;"	t	typeref:struct:__anon11	file:
+SqStack	c/yanweimin/chapter3/stack.c	/^}*SqStack;$/;"	t	typeref:struct:__anon15	file:
+SqStack	c/yanweimin/chapter3/stack.h	/^}*SqStack;$/;"	t	typeref:struct:__anon17
+SqStack	c/yanweimin/chapter6/bitreehead.h	/^}*SqStack;$/;"	t	typeref:struct:__anon21
+Sqlist	c/yanweimin/tianqin/chapter2/sqlist.c	/^typedef struct Sqlist$/;"	s	file:
+Sqlist	c/yanweimin/tianqin/chapter2/sqlist.c	/^}Sqlist;$/;"	t	typeref:struct:Sqlist	file:
+Sqstack	c/yanweimin/tianqin/chapter3/Sqstack.c	/^}Sqstack;$/;"	t	typeref:struct:__anon24	file:
+Status	c/yanweimin/chapter1/linklist/linklist.c	/^typedef int Status;$/;"	t	file:
+Status	c/yanweimin/chapter3/queue.c	/^typedef int Status;$/;"	t	file:
+Status	c/yanweimin/chapter4/hstring.c	/^typedef int Status;$/;"	t	file:
+Status	c/yanweimin/chapter6/bitree.c	/^typedef int Status;$/;"	t	file:
+Status	c/yanweimin/chapter6/queue.h	/^typedef int Status;$/;"	t
+Student	c/tanhaoqiang/chapter10/example10_4.c	/^struct Student$/;"	s	file:
+Student	c/tanhaoqiang/chapter9/example9_8.h	/^typedef struct Student$/;"	s
+Student	c/tanhaoqiang/chapter9/linklist.h	/^typedef struct Student$/;"	s
+Telemtype	c/yanweimin/chapter6/bitreehead.h	/^}Telemtype;$/;"	t	typeref:union:__anon19
+Thread	c/yanweimin/chapter6/bitreehead.h	/^typedef enum PointerTag{Link, Thread}; \/\/Link==0 pointer \/\/Thread==1 thread$/;"	e	enum:PointerTag
+UNKNOWN	c/kechuang/r.geom/local_proto.h	41;"	d
+V	c/kechuang/r.geom/local_proto.h	/^GLOBAL double H,V;$/;"	v
+VL	c/kechuang/r.geom/local_proto.h	/^  VL, \/* valley *\/$/;"	e	enum:__anon5
+ZERO	c/kechuang/r.geom/local_proto.h	/^  ZERO, \/* zero cats do not accept zero category *\/$/;"	e	enum:__anon5
+__	c/kechuang/r.geom/local_proto.h	/^  __, \/* error *\/$/;"	e	enum:__anon5
+_hstring	c/yanweimin/chapter4/hstring.c	/^typedef struct _hstring$/;"	s	file:
+a	c/yanweimin/chapter3/test.c	/^	int a;$/;"	m	struct:__anon18	file:
+a	python/test2.py	/^a = [1,2,[[22,33,[55]],66],3,4,5]$/;"	v
+action1	c/tanhaoqiang/chapter4/example4_7.c	/^void action1(int x, int y)$/;"	f
+action2	c/tanhaoqiang/chapter4/example4_7.c	/^void action2(int x, int y)$/;"	f
+age	c/tanhaoqiang/chapter10/example10_4.c	/^	int age;$/;"	m	struct:Student	file:
+append	c/tanhaoqiang/chapter9/example9_8.h	/^int append(pNode head, pNode node)$/;"	f
+append	c/tanhaoqiang/chapter9/linklist.h	/^int append(pNode head, pNode node)$/;"	f
+b	c/kechuang/r.geom/local_proto.h	/^  int b;$/;"	m	struct:__anon6
+b	c/kechuang/r.geom/local_proto.h	/^  int b;$/;"	m	struct:__anon7
+base	c/yanweimin/chapter3/mystack.c	/^	Elemtype *base;$/;"	m	struct:__anon11	file:
+base	c/yanweimin/chapter3/queue.c	/^	Elemtype *base;$/;"	m	struct:__anon13	file:
+base	c/yanweimin/chapter3/stack.c	/^	Elemtype *base;$/;"	m	struct:__anon15	file:
+base	c/yanweimin/chapter3/stack.h	/^	Elemtype *base;$/;"	m	struct:__anon17
+base	c/yanweimin/chapter4/hstring.c	/^	char *base;$/;"	m	struct:_hstring	file:
+base	c/yanweimin/chapter6/bitreehead.h	/^	Elemtype *base;$/;"	m	struct:__anon21
+base	c/yanweimin/chapter6/bitreehead.h	/^	QElemtype *base;$/;"	m	struct:__anon23
+bi_tuple	c/kechuang/openness.c	/^struct bi_tuple$/;"	s	file:
+bitreeDepth	c/yanweimin/chapter6/bitree.c	/^int bitreeDepth(Bitree tree)$/;"	f
+bitreeEmpty	c/yanweimin/chapter6/bitree.c	/^int bitreeEmpty(Bitree tree)$/;"	f
+book	c/tanhaoqiang/chapter3/example3_10.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter4/example4_3.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter4/example4_4.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter5/example5_1.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter5/example5_2.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter5/example5_6.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter5/example5_8.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter6/example6_8.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter8/example8_29.c	/^int book(void)$/;"	f
+book	c/tanhaoqiang/chapter9/example9_1.c	/^int book(void)$/;"	f
+bubble_sort	c/yanweimin/chapter1/bubble_sort.c	/^int bubble_sort(int a[], int n)$/;"	f
+bubblesort	c/yanweimin/tianqin/paixu/sort.c	/^int bubblesort(int *R, int n)$/;"	f
+buffer	c/kechuang/r.geom/local_proto.h	/^	void* buffer;$/;"	m	struct:__anon2
+calc_pattern	c/kechuang/r.geom/pattern.c	/^int calc_pattern(PATTERN* pattern, int row, int cur_row, int col)$/;"	f
+calculate	c/yanweimin/chapter3/algo3_2_5.c	/^double calculate(char *ex)$/;"	f
+cat	c/kechuang/r.geom/local_proto.h	/^  double cat;$/;"	m	struct:__anon7
+cat	c/kechuang/r.geom/local_proto.h	/^  int cat;$/;"	m	struct:__anon6
+cell_res	c/kechuang/r.geom/local_proto.h	/^GLOBAL double cell_res;$/;"	v
+cell_step	c/kechuang/r.geom/local_proto.h	/^GLOBAL int cell_step;$/;"	v
+chartype	c/yanweimin/chapter3/algo3_2_5.c	/^int chartype(char c)$/;"	f
+chartype	c/yanweimin/chapter3/algo3_2_5_1.c	/^int chartype(char c)$/;"	f
+clearList	c/tanhaoqiang/chapter9/example9_8.h	/^int clearList(pNode head)$/;"	f
+clearList	c/tanhaoqiang/chapter9/linklist.h	/^int clearList(pNode head)$/;"	f
+clearstack	c/yanweimin/chapter3/stack.c	/^int clearstack(SqStack stack)$/;"	f
+clearstack	c/yanweimin/chapter3/stack.h	/^int clearstack(SqStack stack)$/;"	f
+clearstack	c/yanweimin/chapter6/stack.h	/^int clearstack(SqStack stack)$/;"	f
+clearstring	c/yanweimin/chapter4/hstring.c	/^int clearstring(Phstring string)$/;"	f
+compare	c/tanhaoqiang/chapter8/example8_23.c	/^int compare(int a, int b, int (*c)(int, int))$/;"	f
+concat	c/yanweimin/chapter4/hstring.c	/^Status concat(Phstring new, Hstring s, Hstring t)$/;"	f
+convert	c/yanweimin/chapter3/algo3_2_5_1.c	/^char* convert(char *expression)$/;"	f
+convertexpression	c/yanweimin/chapter3/algo3_2_5.c	/^char *convertexpression(char *ex)$/;"	f
+copy1	c/page27.c	/^void copy1( char to[], char from[])$/;"	f
+coss	c/kechuang/r.geom/geom.c	/^static double coss[8]={0.7071067812,1,0.7071067812,0,-0.7071067812,-1,-0.7071067812,0}; \/* cosinus *\/$/;"	v	file:
+coss	c/kechuang/r.geom/pattern.c	/^static double coss[8]={0.7071067812,1,0.7071067812,0,-0.7071067812,-1,-0.7071067812,0}; \/* cosinus *\/$/;"	v	file:
+create	c/tanhaoqiang/chapter6/exc6.c	/^int *create(int row, int column)$/;"	f
+createBiThrTree	c/yanweimin/chapter6/bithrtree.c	/^Status createBiThrTree(BiThrTree tree, char **string)$/;"	f
+createBitree	c/yanweimin/chapter6/bitree.c	/^Status createBitree(Bitree tree, char **string)$/;"	f
+data	c/tanhaoqiang/chapter9/example9_8.h	/^	Elemtype data;$/;"	m	struct:Node
+data	c/tanhaoqiang/chapter9/linklist.h	/^	Elemtype data;$/;"	m	struct:Node
+data	c/yanweimin/chapter1/LNode/LNode.c	/^	int data;$/;"	m	struct:LNode	file:
+data	c/yanweimin/chapter1/linklist/linklist.c	/^	ElemType data;$/;"	m	struct:LNode	file:
+data	c/yanweimin/chapter6/bitreehead.h	/^	Telemtype data;$/;"	m	struct:BiTNode
+data	c/yanweimin/chapter6/bitreehead.h	/^	Telemtype data;$/;"	m	struct:BiThrNode
+data	c/yanweimin/tianqin/chapter2/sqlist.c	/^	int data[MAXSIZE];$/;"	m	struct:Sqlist	file:
+data	c/yanweimin/tianqin/chapter3/Lstack.c	/^	int data;$/;"	m	struct:LNode	file:
+data	c/yanweimin/tianqin/chapter3/Sqstack.c	/^	int data[MAXSIZE];$/;"	m	struct:__anon24	file:
+delFirst	c/tanhaoqiang/chapter9/example9_8.h	/^pNode delFirst(pNode head)$/;"	f
+delFirst	c/tanhaoqiang/chapter9/linklist.h	/^pNode delFirst(pNode head)$/;"	f
+delete	c/yanweimin/tianqin/chapter2/sqlist.c	/^int delete(Sqlist *plist, int index, int *e)$/;"	f
+dequeue	c/yanweimin/chapter3/queue.c	/^Status dequeue(Pqueue queue, Pelemtype pe)$/;"	f
+dequeue	c/yanweimin/chapter6/queue.h	/^Status dequeue(Pqueue queue, Pelemtype pe)$/;"	f
+description	c/kechuang/r.geom/local_proto.h	/^	char* description;$/;"	m	struct:__anon2
+destroyList	c/tanhaoqiang/chapter9/example9_8.h	/^int destroyList(pNode head)$/;"	f
+destroyList	c/tanhaoqiang/chapter9/linklist.h	/^int destroyList(pNode head)$/;"	f
+destroystack	c/yanweimin/chapter3/mystack.c	/^int destroystack(SqStack stack)$/;"	f
+destroystack	c/yanweimin/chapter3/stack.c	/^int destroystack(SqStack stack)$/;"	f
+destroystack	c/yanweimin/chapter3/stack.h	/^int destroystack(SqStack stack)$/;"	f
+destroystack	c/yanweimin/chapter6/stack.h	/^int destroystack(SqStack stack)$/;"	f
+determine_binary	c/kechuang/r.geom/geom.c	/^int determine_binary(int* pattern, int sign)$/;"	f
+determine_form	c/kechuang/r.geom/geom.c	/^int determine_form(int num_minus, int num_plus)$/;"	f
+determine_ternary	c/kechuang/r.geom/geom.c	/^int determine_ternary(int* pattern)$/;"	f
+dh	c/kechuang/openness.c	/^	int dh;$/;"	m	struct:bi_tuple	file:
+direct	c/kechuang/openness.c	/^} direct = $/;"	v	typeref:struct:directions
+directions	c/kechuang/openness.c	/^struct directions$/;"	s	file:
+dirs	c/kechuang/r.geom/geom.c	/^static double dirs[8]={0.7854,0.,5.4978,4.7124,3.9270,3.1416,2.3562,1.5708}; \/* radians *\/$/;"	v	file:
+dirs	c/kechuang/r.geom/pattern.c	/^static double dirs[8]={0.7854,0.,5.4978,4.7124,3.9270,3.1416,2.3562,1.5708}; \/* radians *\/$/;"	v	file:
+distance	c/kechuang/r.geom/local_proto.h	/^	double distance[64];$/;"	m	struct:__anon4
+dw	c/kechuang/openness.c	/^	int dw;$/;"	m	struct:bi_tuple	file:
+e	c/kechuang/openness.c	/^	struct bi_tuple e;$/;"	m	struct:directions	typeref:struct:directions::bi_tuple	file:
+elev	c/kechuang/r.geom/local_proto.h	/^  FCELL **elev;$/;"	m	struct:__anon1
+elevation	c/kechuang/r.geom/local_proto.h	/^	float elevation[64];$/;"	m	struct:__anon4
+elevation	c/kechuang/r.geom/local_proto.h	/^GLOBAL MAPS elevation;$/;"	v
+elevname	c/kechuang/r.geom/local_proto.h	/^  char elevname[150];$/;"	m	struct:__anon1
+enqueue	c/yanweimin/chapter3/queue.c	/^int enqueue(Pqueue queue, Elemtype e)$/;"	f
+enqueue	c/yanweimin/chapter6/queue.h	/^int enqueue(Pqueue queue, QElemtype e)$/;"	f
+exposition	c/kechuang/r.geom/geom.c	/^float exposition(float* elevation)$/;"	f
+extends	c/kechuang/r.geom/geom.c	/^float extends(PATTERN* pattern, int pattern_size)$/;"	f
+f	c/mytest.c	/^int f(int i, int n)$/;"	f
+f1	c/tanhaoqiang/chapter3/example3_9.c	/^int f1(void)$/;"	f
+f2	c/tanhaoqiang/chapter3/example3_9.c	/^int f2(void)$/;"	f
+f_to_c	c/tanhaoqiang/chapter3/example3_1.c	/^int f_to_c(double f)$/;"	f
+fabs	python/test.py	/^fabs = [1,1]$/;"	v
+fd	c/kechuang/r.geom/local_proto.h	/^	int fd;$/;"	m	struct:__anon2
+fd	c/kechuang/r.geom/local_proto.h	/^	int fd;$/;"	m	struct:__anon3
+fd	c/kechuang/r.geom/local_proto.h	/^  int fd; \/* file descriptor *\/$/;"	m	struct:__anon1
+filecopy	c/page161.c	/^void filecopy( FILE *ifp, FILE *ofp)$/;"	f
+find	c/tanhaoqiang/chapter6/exc9.c	/^int find(void)$/;"	f
+flat_distance	c/kechuang/r.geom/local_proto.h	/^GLOBAL double search_distance, search_step, skip_distance, flat_distance;$/;"	v
+flat_threshold	c/kechuang/r.geom/local_proto.h	/^GLOBAL double flat_threshold, flat_threshold_height;$/;"	v
+flat_threshold_height	c/kechuang/r.geom/local_proto.h	/^GLOBAL double flat_threshold, flat_threshold_height;$/;"	v
+forms_buffer	c/kechuang/r.geom/local_proto.h	/^	CELL* forms_buffer;$/;"	m	struct:__anon3
+fraction_add	c/knking/chapter3/t6.c	/^void fraction_add(void)$/;"	f
+frand	c/test.c	5;"	d	file:
+freeNode	c/tanhaoqiang/chapter9/example9_8.h	/^void freeNode(pNode pnode)$/;"	f
+freeNode	c/tanhaoqiang/chapter9/linklist.h	/^void freeNode(pNode pnode)$/;"	f
+free_map	c/kechuang/r.geom/memory.c	/^int free_map (FCELL **map, int n) {$/;"	f
+func	c/hello.c	/^void func()$/;"	f
+func	c/hello2.c	/^void func()$/;"	f
+func	c/tanhaoqiang/chapter3/exc3_1.c	/^int func(int year_no)$/;"	f
+func	c/tanhaoqiang/chapter4/example4_1.c	/^int func(double a, double b, double c)$/;"	f
+func	c/tanhaoqiang/chapter7/example7_6.c	/^int func(int n)$/;"	f
+func	c/tanhaoqiang/chapter7/exc8.c	/^int func(int a, int n)$/;"	f
+func	python/test2.py	/^def func(a):$/;"	f
+func2	c/hello.c	/^void func2()$/;"	f
+func2	c/hello2.c	/^void func2()$/;"	f
+func3	c/hello.c	/^void func3()$/;"	f
+g	c/kechuang/r.geom/local_proto.h	/^  int g;$/;"	m	struct:__anon6
+g	c/kechuang/r.geom/local_proto.h	/^  int g;$/;"	m	struct:__anon7
+gcd	c/tanhaoqiang/chapter7/exc1.c	/^int gcd(int a, int b)$/;"	f
+getElem	c/tanhaoqiang/chapter9/example9_8.h	/^Elemtype getElem(pNode head, int index)$/;"	f
+getElem	c/tanhaoqiang/chapter9/linklist.h	/^Elemtype getElem(pNode head, int index)$/;"	f
+get_cell	c/kechuang/r.geom/memory.c	/^int get_cell(int col, float* buf_row, void* buf, RASTER_MAP_TYPE raster_type) {$/;"	f
+get_distance	c/tanhaoqiang/chapter4/exc4_12.c	/^double get_distance(double x, double y, double x0, double y0)$/;"	f
+get_max	c/tanhaoqiang/chapter4/exc4_4.c	/^int get_max(int a, int b, int c)$/;"	f
+getline1	c/page27.c	/^int getline1(char s[], int lim)$/;"	f
+getline1	c/page68.c	/^int getline1( char s[], int lim )$/;"	f
+getmatrix	c/matrix/input.c	/^void getmatrix( int a[])$/;"	f
+getmatrix2	c/matrix/input.c	/^void getmatrix2( int a[])$/;"	f
+getstring	c/yanweimin/chapter4/hstring.c	/^char *getstring(void)$/;"	f
+getstring	c/yanweimin/chapter6/bitree.c	/^char *getstring(void)$/;"	f
+gettop	c/yanweimin/chapter3/stack.c	/^Elemtype gettop(SqStack stack)$/;"	f
+gettop	c/yanweimin/chapter3/stack.h	/^Elemtype gettop(SqStack stack)$/;"	f
+gettop	c/yanweimin/chapter6/stack.h	/^Elemtype gettop(SqStack stack)$/;"	f
+global_ternary_codes	c/kechuang/r.geom/local_proto.h	/^unsigned int global_ternary_codes[6562];$/;"	v
+gofarleft	c/yanweimin/chapter6/bitree.c	/^BiTNode *gofarleft(Bitree tree, SqStack stack)$/;"	f
+gui	c/kechuang/r.geom/local_proto.h	/^	char* gui;$/;"	m	struct:__anon2
+hanoi	c/tanhaoqiang/chapter7/example7_8.c	/^int hanoi(int n)$/;"	f
+head	c/yanweimin/chapter1/linklist/linklist.c	/^	Link head, tail;$/;"	m	struct:__anon10	file:
+head	c/yanweimin/chapter3/queue.c	/^	int head;$/;"	m	struct:__anon13	file:
+head	c/yanweimin/chapter6/bitreehead.h	/^	int head;$/;"	m	struct:__anon23
+histogram	c/exc1_13.c	/^void histogram(int array[], int length)$/;"	f
+i_dem	c/kechuang/r.geom/main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon8	file:
+inOrderTranverse	c/yanweimin/chapter6/bitree.c	/^Status inOrderTranverse(Bitree tree, Status(*visit)(Telemtype e))$/;"	f
+initLink	c/yanweimin/chapter1/LNode/LNode.c	/^LinkList initLink(int n)$/;"	f
+initStack	c/yanweimin/tianqin/chapter3/Lstack.c	/^LNode* initStack()$/;"	f
+initlink	c/tanhaoqiang/chapter9/example9_8.h	/^pNode initlink(int length, Elemtype e)$/;"	f
+initlink	c/tanhaoqiang/chapter9/linklist.h	/^pNode initlink(int length, Elemtype e)$/;"	f
+initqueue	c/yanweimin/chapter3/queue.c	/^int initqueue(Pqueue queue)$/;"	f
+initqueue	c/yanweimin/chapter6/queue.h	/^int initqueue(Pqueue queue)$/;"	f
+initsqlist	c/yanweimin/tianqin/chapter2/sqlist.c	/^int initsqlist(Sqlist *plist)$/;"	f
+initsqstack	c/yanweimin/tianqin/chapter3/Sqstack.c	/^int initsqstack(Sqstack *stack)$/;"	f
+initstack	c/yanweimin/chapter3/mystack.c	/^SqStack initstack()$/;"	f
+initstack	c/yanweimin/chapter3/stack.c	/^SqStack initstack()$/;"	f
+initstack	c/yanweimin/chapter3/stack.h	/^SqStack initstack()$/;"	f
+initstack	c/yanweimin/chapter6/stack.h	/^SqStack initstack()$/;"	f
+inputStuInfo	c/tanhaoqiang/chapter9/example9_8.h	/^stu inputStuInfo(void)$/;"	f
+inputStuInfo	c/tanhaoqiang/chapter9/linklist.h	/^stu inputStuInfo(void)$/;"	f
+inputexpression	c/yanweimin/chapter3/algo3_2_5.c	/^char *inputexpression()$/;"	f
+insAfter	c/tanhaoqiang/chapter9/example9_8.h	/^int insAfter(pNode head, int index, Elemtype e)$/;"	f
+insAfter	c/tanhaoqiang/chapter9/linklist.h	/^int insAfter(pNode head, int index, Elemtype e)$/;"	f
+insBefore	c/tanhaoqiang/chapter9/example9_8.h	/^int insBefore(pNode head, int index, Elemtype e)$/;"	f
+insBefore	c/tanhaoqiang/chapter9/linklist.h	/^int insBefore(pNode head, int index, Elemtype e)$/;"	f
+insFirst	c/tanhaoqiang/chapter9/example9_8.h	/^int insFirst(pNode head, pNode node)$/;"	f
+insFirst	c/tanhaoqiang/chapter9/linklist.h	/^int insFirst(pNode head, pNode node)$/;"	f
+insert	c/yanweimin/tianqin/chapter2/sqlist.c	/^int insert(Sqlist *plist, int index, int elem)$/;"	f
+insertsort	c/yanweimin/tianqin/paixu/sort.c	/^int insertsort(int *R, int n)$/;"	f
+intensity	c/kechuang/r.geom/geom.c	/^float intensity(float* elevation, int pattern_size)$/;"	f
+io_size	c/kechuang/r.geom/main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon8	file:
+is_leap	c/tanhaoqiang/chapter2/example2_3.c	/^int is_leap(int year)$/;"	f
+is_prime	c/tanhaoqiang/chapter2/example2_5.c	/^int is_prime(int n)$/;"	f
+is_prime	c/tanhaoqiang/chapter5/example5_10.c	/^int is_prime(int n)$/;"	f
+is_prime	c/tanhaoqiang/chapter6/exc1.c	/^int is_prime(int n)$/;"	f
+isempty	c/yanweimin/tianqin/chapter3/Lstack.c	/^int isempty(LNode lst)$/;"	f
+isempty	c/yanweimin/tianqin/chapter3/Sqstack.c	/^int isempty(Sqstack stack)$/;"	f
+jiecheng	c/tanhaoqiang/chapter2/example2_1.c	/^int jiecheng(int n)$/;"	f
+jiecheng	c/tanhaoqiang/chapter5/exc6.c	/^int jiecheng(int n)$/;"	f
+jiecheng	c/tanhaoqiang/chapter7/example7_7.c	/^int jiecheng(int n)$/;"	f
+label	c/kechuang/r.geom/local_proto.h	/^  char* label;$/;"	m	struct:__anon6
+label	c/kechuang/r.geom/local_proto.h	/^  char* label;$/;"	m	struct:__anon7
+lchild	c/yanweimin/chapter6/bitreehead.h	/^	struct BiTNode *lchild,  *rchild;$/;"	m	struct:BiTNode	typeref:struct:BiTNode::BiTNode
+lchild	c/yanweimin/chapter6/bitreehead.h	/^	struct BiThrNode *lchild, *rchild;$/;"	m	struct:BiThrNode	typeref:struct:BiThrNode::BiThrNode
+lcm	c/tanhaoqiang/chapter7/exc1.c	/^int lcm(int a, int b)$/;"	f
+len	c/yanweimin/chapter1/linklist/linklist.c	/^	int len;$/;"	m	struct:__anon10	file:
+length	c/yanweimin/chapter4/hstring.c	/^	int length;$/;"	m	struct:_hstring	file:
+length	c/yanweimin/tianqin/chapter2/sqlist.c	/^	int length;$/;"	m	struct:Sqlist	file:
+levelOrderTranverse	c/yanweimin/chapter6/bitree.c	/^Status levelOrderTranverse(Bitree tree, Status(*visit)(Telemtype e))$/;"	f
+linkRemove	c/tanhaoqiang/chapter9/example9_8.h	/^pNode linkRemove(pNode head)$/;"	f
+linkRemove	c/tanhaoqiang/chapter9/linklist.h	/^pNode linkRemove(pNode head)$/;"	f
+listEmpty	c/tanhaoqiang/chapter9/example9_8.h	/^int listEmpty(pNode head)$/;"	f
+listEmpty	c/tanhaoqiang/chapter9/linklist.h	/^int listEmpty(pNode head)$/;"	f
+listTranverse	c/tanhaoqiang/chapter9/example9_8.h	/^int listTranverse(pNode head, int(*visit)())$/;"	f
+listTranverse	c/tanhaoqiang/chapter9/linklist.h	/^int listTranverse(pNode head, int(*visit)())$/;"	f
+ltag	c/yanweimin/chapter6/bitreehead.h	/^	PointerTag ltag, rtag;$/;"	m	struct:BiThrNode
+main	c/brian/exc1_2.c	/^int main()$/;"	f
+main	c/brian/exc1_7.c	/^int main()$/;"	f
+main	c/brian/exc1_9.c	/^int main(void)$/;"	f
+main	c/exc1_12.c	/^main()$/;"	f
+main	c/exc1_13.c	/^main()$/;"	f
+main	c/exc1_16.c	/^main()$/;"	f
+main	c/exc1_18.c	/^main()$/;"	f
+main	c/exc1_2.c	/^main()$/;"	f
+main	c/exc1_3.c	/^main()$/;"	f
+main	c/exc1_7.c	/^main()$/;"	f
+main	c/hello.c	/^main()$/;"	f
+main	c/hello2.c	/^main()$/;"	f
+main	c/io/iotest.c	/^main()$/;"	f
+main	c/kechuang/openness.c	/^main()$/;"	f
+main	c/kechuang/r.geom/main.c	/^int main(int argc, char **argv)$/;"	f
+main	c/knking/chapter2/t1.c	/^int main(void)$/;"	f
+main	c/knking/chapter2/t3.c	/^int main(void)$/;"	f
+main	c/knking/chapter2/t4.c	/^int main(void)$/;"	f
+main	c/knking/chapter2/t5.c	/^int main(void)$/;"	f
+main	c/knking/chapter2/t6.c	/^int main(void)$/;"	f
+main	c/knking/chapter2/t7.c	/^int main(void)$/;"	f
+main	c/knking/chapter3/l4.c	/^int main(void)$/;"	f
+main	c/knking/chapter3/t4.c	/^int main(void)$/;"	f
+main	c/knking/chapter3/t6.c	/^int main(void)$/;"	f
+main	c/knking/chapter4/l4.c	/^int main(void)$/;"	f
+main	c/knking/chapter4/t1.c	/^int main(void)$/;"	f
+main	c/knking/chapter4/t2.c	/^int main(void)$/;"	f
+main	c/knking/chapter4/t4.c	/^int main(void)$/;"	f
+main	c/knking/chapter5/l3.c	/^int main(void)$/;"	f
+main	c/knking/chapter5/t1.c	/^int main(void)$/;"	f
+main	c/knking/chapter5/t2.c	/^int main(void)$/;"	f
+main	c/knking/chapter5/t3.c	/^int main(void)$/;"	f
+main	c/knking/chapter5/t7.c	/^int main(void)$/;"	f
+main	c/knking/chapter6/t1.c	/^int main(void)$/;"	f
+main	c/knking/chapter6/t2.c	/^int main(void)$/;"	f
+main	c/knking/chapter6/t3.c	/^int main(void)$/;"	f
+main	c/matrix/input.c	/^main()$/;"	f
+main	c/matrix/test.c	/^main()$/;"	f
+main	c/myexc/mygetline.c	/^main()$/;"	f
+main	c/mytest.c	/^int main()$/;"	f
+main	c/page104.c	/^main()$/;"	f
+main	c/page114.c	/^main(int argc, char *argv[])$/;"	f
+main	c/page114_2.c	/^main(int argc, char *argv[])$/;"	f
+main	c/page116.c	/^main(int argc, char *argv[])$/;"	f
+main	c/page15.c	/^main()$/;"	f
+main	c/page161.c	/^main(int argc, char *argv[])$/;"	f
+main	c/page170.c	/^main()$/;"	f
+main	c/page19.c	/^main()$/;"	f
+main	c/page20.c	/^main()$/;"	f
+main	c/page21.c	/^main()$/;"	f
+main	c/page27.c	/^main()$/;"	f
+main	c/page46.c	/^main()$/;"	f
+main	c/page68.c	/^main()$/;"	f
+main	c/tanhaoqiang/chapter1/example1_2.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter1/example1_3.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter1/exc1_5.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter1/exc1_6.c	/^main(void)$/;"	f
+main	c/tanhaoqiang/chapter10/example10_1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter10/example10_2.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter10/example10_4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter2/example2_1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter2/example2_3.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter2/example2_4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter2/example2_5.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/example3_1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/example3_10.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/example3_3.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/example3_4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/example3_8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/example3_9.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/exc3_1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/exc3_2.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/exc3_3.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/exc3_4.c	/^int main()$/;"	f
+main	c/tanhaoqiang/chapter3/exc3_6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/test3_2_3.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter3/test3_2_4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/example4_1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/example4_2.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/example4_3.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/example4_4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/example4_5.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/example4_6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/example4_7.c	/^int main()$/;"	f
+main	c/tanhaoqiang/chapter4/example4_9.c	/^int main()$/;"	f
+main	c/tanhaoqiang/chapter4/exc4_10.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/exc4_11.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/exc4_12.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/exc4_4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/exc4_5.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/exc4_6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/exc4_8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter4/exc4_9.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter5/example5_1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter5/example5_10.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter5/example5_11.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter5/example5_2.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter5/example5_6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter5/example5_7.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter5/example5_8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter5/exc6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/example6_1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/example6_2.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/example6_3.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/example6_4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/example6_6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/example6_8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/example6_9.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc11.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc3.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc5.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc7.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/exc9.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter6/test1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter7/example7_2.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter7/example7_5.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter7/example7_6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter7/example7_7.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter7/example7_8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter7/exc1.c	/^int main(viod)$/;"	f
+main	c/tanhaoqiang/chapter7/exc8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_12.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_16.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_17.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_18.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_23.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_27.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_28.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_29.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/example8_8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/exc4.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter8/test8.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter9/example9_1.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter9/exc6.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter9/test.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/chapter9/test2.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/page146.c	/^int main(void)$/;"	f
+main	c/tanhaoqiang/test.c	/^main(void)$/;"	f
+main	c/test.c	/^main()$/;"	f
+main	c/test2.c	/^main()$/;"	f
+main	c/yanweimin/chapter1/LNode/LNode.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter1/bubble_sort.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter1/linklist/linklist.c	/^int main()$/;"	f
+main	c/yanweimin/chapter3/algo3_2_5.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter3/algo3_2_5_1.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter3/mystack.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter3/queue.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter3/test.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter4/hstring.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter4/test.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter6/bithrtree.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter6/bitree.c	/^int main(void)$/;"	f
+main	c/yanweimin/chapter6/test.c	/^int main(void)$/;"	f
+main	c/yanweimin/tianqin/chapter2/sqlist.c	/^int main(void)$/;"	f
+main	c/yanweimin/tianqin/chapter3/Lstack.c	/^int main(void)$/;"	f
+main	c/yanweimin/tianqin/chapter3/Sqstack.c	/^int main(void)$/;"	f
+main	c/yanweimin/tianqin/chapter3/test.c	/^int main(void)$/;"	f
+main	c/yanweimin/tianqin/paixu/sort.c	/^int main(void)$/;"	f
+main	pydll/aver.c	/^main()$/;"	f
+main	pydll/main.c	/^main()$/;"	f
+makeNode	c/tanhaoqiang/chapter9/example9_8.h	/^pNode makeNode(Elemtype e)$/;"	f
+makeNode	c/tanhaoqiang/chapter9/linklist.h	/^pNode makeNode(Elemtype e)$/;"	f
+max	c/tanhaoqiang/chapter1/example1_3.c	/^int max(int x, int y)$/;"	f
+max	c/tanhaoqiang/chapter7/example7_2.c	/^int max(int a, int b)$/;"	f
+max	c/tanhaoqiang/chapter7/example7_5.c	/^int max(int a, int b)$/;"	f
+max	c/tanhaoqiang/chapter8/example8_23.c	/^int max(int a, int b)$/;"	f
+mian	c/algorithms/insertion_sort.c	/^int mian(void)$/;"	f
+min	c/tanhaoqiang/chapter8/example8_23.c	/^int min(int a, int b)$/;"	f
+mine	c/tanhaoqiang/chapter10/example10_1.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter10/example10_2.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter10/example10_4.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter3/example3_10.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter4/example4_2.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter4/example4_3.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter4/example4_4.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter4/example4_5.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter4/example4_6.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter5/example5_1.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter5/example5_10.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter5/example5_11.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter5/example5_2.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter5/example5_6.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter5/example5_7.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter5/example5_8.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter5/exc6.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter6/example6_1.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter6/example6_2.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter6/example6_4.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter6/example6_8.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter6/example6_9.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter6/exc1.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter6/exc3.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter6/exc4.c	/^int mine(viod)$/;"	f
+mine	c/tanhaoqiang/chapter6/exc5.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_12.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_16.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_17.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_18.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_23.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_27.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_28.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_29.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_6.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/example8_8.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter8/exc4.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter9/example9_1.c	/^int mine(void)$/;"	f
+mine	c/tanhaoqiang/chapter9/example9_8.h	/^int mine(void)$/;"	f
+mine	c/yanweimin/chapter3/mystack.c	/^int mine(void)$/;"	f
+minprintf	c/page155.c	/^void minprintf(char *fmt, ...)$/;"	f
+move	c/tanhaoqiang/chapter7/example7_8.c	/^void move(int n, char start, char mid, char end)$/;"	f
+my_power	pydll/my_power.c	/^int my_power(int base, int n)$/;"	f
+my_printf	c/tanhaoqiang/chapter6/exc1.c	/^int my_printf(int n, int number)$/;"	f
+mygetline	c/exc1_16.c	/^int mygetline(char line[], int maxline)$/;"	f
+mygetline	c/exc1_18.c	/^int mygetline(char line[], int maxline)$/;"	f
+mygetline	c/myexc/mygetline.c	/^int mygetline(char line[], int max)$/;"	f
+n	c/kechuang/openness.c	/^	struct bi_tuple n;$/;"	m	struct:directions	typeref:struct:directions::bi_tuple	file:
+name	c/kechuang/r.geom/local_proto.h	/^	char name[100];$/;"	m	struct:__anon3
+name	c/kechuang/r.geom/local_proto.h	/^	char* name;$/;"	m	struct:__anon2
+name	c/tanhaoqiang/chapter10/example10_4.c	/^	char name[10];$/;"	m	struct:Student	file:
+name	c/tanhaoqiang/chapter9/example9_8.h	/^	char name[20];$/;"	m	struct:Student
+name	c/tanhaoqiang/chapter9/linklist.h	/^	char name[20];$/;"	m	struct:Student
+name	c/tanhaoqiang/chapter9/test.c	/^	char name[10];$/;"	m	struct:str	file:
+ncols	c/kechuang/r.geom/local_proto.h	/^GLOBAL int nrows, ncols, row_radius_size, row_buffer_size;$/;"	v
+ne	c/kechuang/openness.c	/^	struct bi_tuple ne;$/;"	m	struct:directions	typeref:struct:directions::bi_tuple	file:
+negatives	c/kechuang/r.geom/local_proto.h	/^	unsigned char negatives;$/;"	m	struct:__anon4
+next	c/tanhaoqiang/chapter9/example9_8.h	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node
+next	c/tanhaoqiang/chapter9/linklist.h	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node
+next	c/yanweimin/chapter1/LNode/LNode.c	/^	struct LNode *next;$/;"	m	struct:LNode	typeref:struct:LNode::LNode	file:
+next	c/yanweimin/chapter1/linklist/linklist.c	/^	struct LNode *next;$/;"	m	struct:LNode	typeref:struct:LNode::LNode	file:
+next	c/yanweimin/tianqin/chapter3/Lstack.c	/^	struct LNode *next;$/;"	m	struct:LNode	typeref:struct:LNode::LNode	file:
+nextc	c/kechuang/r.geom/pattern.c	/^static int nextc[8] = {1, 0, -1, -1, -1, 0, 1, 1 };$/;"	v	file:
+nextr	c/kechuang/r.geom/pattern.c	/^static int nextr[8] = {-1, -1, -1, 0, 1, 1, 1, 0 };$/;"	v	file:
+no	c/tanhaoqiang/chapter10/example10_4.c	/^	int no;$/;"	m	struct:Student	file:
+no	c/tanhaoqiang/chapter9/example9_8.h	/^	int no;$/;"	m	struct:Student
+no	c/tanhaoqiang/chapter9/linklist.h	/^	int no;$/;"	m	struct:Student
+no	c/tanhaoqiang/chapter9/test.c	/^	int no;$/;"	m	struct:str	file:
+nrows	c/kechuang/r.geom/local_proto.h	/^GLOBAL int nrows, ncols, row_radius_size, row_buffer_size;$/;"	v
+num_negatives	c/kechuang/r.geom/local_proto.h	/^	int num_negatives;$/;"	m	struct:__anon4
+num_of_steps	c/kechuang/r.geom/local_proto.h	/^GLOBAL int num_of_steps;$/;"	v
+num_positives	c/kechuang/r.geom/local_proto.h	/^	int num_positives;$/;"	m	struct:__anon4
+number	python/test.py	/^number = int(raw_input("Please enter the length of the Fabonacci list:"))$/;"	v
+nw	c/kechuang/openness.c	/^	struct bi_tuple nw;$/;"	m	struct:directions	typeref:struct:directions::bi_tuple	file:
+o_azimuth	c/kechuang/r.geom/main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon8	file:
+o_elongation	c/kechuang/r.geom/main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon8	file:
+o_exposition	c/kechuang/r.geom/main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon8	file:
+o_extend	c/kechuang/r.geom/main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon8	file:
+o_forms	c/kechuang/r.geom/main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon8	file:
+o_intensity	c/kechuang/r.geom/main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon8	file:
+o_negative	c/kechuang/r.geom/main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon8	file:
+o_positive	c/kechuang/r.geom/main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon8	file:
+o_range	c/kechuang/r.geom/main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon8	file:
+o_ternary	c/kechuang/r.geom/main.c	/^typedef enum {i_dem, o_forms, o_ternary, o_positive, o_negative, o_intensity, o_exposition,$/;"	e	enum:__anon8	file:
+o_variance	c/kechuang/r.geom/main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon8	file:
+o_width	c/kechuang/r.geom/main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	e	enum:__anon8	file:
+open_map	c/kechuang/r.geom/memory.c	/^int open_map(MAPS* rast) {$/;"	f
+operank	c/yanweimin/chapter3/algo3_2_5.c	/^int operank(char c)$/;"	f
+out_data_type	c/kechuang/r.geom/local_proto.h	/^	RASTER_MAP_TYPE out_data_type;$/;"	m	struct:__anon2
+outputs	c/kechuang/r.geom/main.c	/^	o_range, o_variance, o_elongation, o_azimuth, o_extend, o_width, io_size} outputs;$/;"	t	typeref:enum:__anon8	file:
+pNode	c/tanhaoqiang/chapter9/example9_8.h	/^}Node, *pNode;$/;"	t	typeref:struct:Node
+pNode	c/tanhaoqiang/chapter9/linklist.h	/^}Node, *pNode;$/;"	t	typeref:struct:Node
+pan	c/tanhaoqiang/chapter8/exc4.c	/^int pan(int *a, int length, int n)$/;"	f
+pattern	c/kechuang/r.geom/local_proto.h	/^	int pattern[64];$/;"	m	struct:__anon4
+pattern	c/page68.c	/^char pattern[] = "ould"; \/* 待查找的模式 *\/$/;"	v
+pop	c/yanweimin/chapter3/stack.c	/^Elemtype pop(SqStack stack)$/;"	f
+pop	c/yanweimin/chapter3/stack.h	/^Elemtype pop(SqStack stack)$/;"	f
+pop	c/yanweimin/chapter6/stack.h	/^Elemtype pop(SqStack stack)$/;"	f
+pop	c/yanweimin/tianqin/chapter3/Lstack.c	/^int pop(LNode *lst, int *e)$/;"	f
+pop	c/yanweimin/tianqin/chapter3/Sqstack.c	/^int pop(Sqstack *stack, int *e)$/;"	f
+positives	c/kechuang/r.geom/local_proto.h	/^	unsigned char positives;$/;"	m	struct:__anon4
+postOrderTranverse	c/yanweimin/chapter6/bitree.c	/^Status postOrderTranverse(Bitree tree, Status(*visit)(Telemtype e))$/;"	f
+preOrderTranverse	c/yanweimin/chapter6/bitree.c	/^Status preOrderTranverse(Bitree tree, Status (*visit)(Telemtype e))$/;"	f
+print2dmatrix	c/tanhaoqiang/chapter8/example8_12.c	/^int print2dmatrix(int (*a)[4], int row, int column)$/;"	f
+print_char_elem	c/yanweimin/chapter6/bitree.c	/^Status print_char_elem(Telemtype e)$/;"	f
+print_char_queue	c/yanweimin/chapter3/queue.c	/^int print_char_queue(Pqueue queue)$/;"	f
+print_char_queue	c/yanweimin/chapter6/queue.h	/^int print_char_queue(Pqueue queue)$/;"	f
+print_char_stack	c/yanweimin/chapter3/stack.c	/^int print_char_stack(SqStack stack)$/;"	f
+print_char_stack	c/yanweimin/chapter3/stack.h	/^int print_char_stack(SqStack stack)$/;"	f
+print_char_stack	c/yanweimin/chapter6/stack.h	/^int print_char_stack(SqStack stack)$/;"	f
+print_double_queue	c/yanweimin/chapter3/queue.c	/^int print_double_queue(Pqueue queue)$/;"	f
+print_double_queue	c/yanweimin/chapter6/queue.h	/^int print_double_queue(Pqueue queue)$/;"	f
+print_double_stack	c/yanweimin/chapter3/stack.c	/^int print_double_stack(SqStack stack)$/;"	f
+print_double_stack	c/yanweimin/chapter3/stack.h	/^int print_double_stack(SqStack stack)$/;"	f
+print_double_stack	c/yanweimin/chapter6/stack.h	/^int print_double_stack(SqStack stack)$/;"	f
+print_int_queue	c/yanweimin/chapter3/queue.c	/^int print_int_queue(Pqueue queue)$/;"	f
+print_int_queue	c/yanweimin/chapter6/queue.h	/^int print_int_queue(Pqueue queue)$/;"	f
+print_int_stack	c/yanweimin/chapter3/stack.c	/^int print_int_stack(SqStack stack)$/;"	f
+print_int_stack	c/yanweimin/chapter3/stack.h	/^int print_int_stack(SqStack stack)$/;"	f
+print_int_stack	c/yanweimin/chapter6/stack.h	/^int print_int_stack(SqStack stack)$/;"	f
+print_link	c/yanweimin/chapter1/LNode/LNode.c	/^int print_link(LinkList link)$/;"	f
+print_starline	c/tanhaoqiang/chapter1/exc1_5.c	/^int print_starline(int n)$/;"	f
+printfengexian	c/tanhaoqiang/chapter9/example9_8.h	/^int printfengexian(int n)$/;"	f
+printfengexian	c/tanhaoqiang/chapter9/linklist.h	/^int printfengexian(int n)$/;"	f
+printlink	c/tanhaoqiang/chapter9/example9_8.h	/^int printlink(pNode head)$/;"	f
+printlink	c/tanhaoqiang/chapter9/linklist.h	/^int printlink(pNode head)$/;"	f
+printng	c/yanweimin/tianqin/chapter2/sqlist.c	/^int printng(int *a, int n)$/;"	f
+printng	c/yanweimin/tianqin/chapter3/Sqstack.c	/^int printng(int *a, int n)$/;"	f
+printseparat	c/yanweimin/chapter3/stack.c	/^int printseparat(int n, char c)$/;"	f
+printseparat	c/yanweimin/chapter3/stack.h	/^int printseparat(int n, char c)$/;"	f
+printseparat	c/yanweimin/chapter6/stack.h	/^int printseparat(int n, char c)$/;"	f
+printseparate	c/yanweimin/chapter4/hstring.c	/^int printseparate(int n, char ch)$/;"	f
+printstack	c/yanweimin/chapter3/mystack.c	/^int printstack(SqStack stack)$/;"	f
+printstack	c/yanweimin/tianqin/chapter3/Lstack.c	/^int printstack(LNode *lst)$/;"	f
+pstr	c/tanhaoqiang/chapter9/test.c	/^} *pstr;$/;"	t	typeref:struct:str	file:
+push	c/yanweimin/chapter3/mystack.c	/^int push(SqStack stack, Elemtype e)$/;"	f
+push	c/yanweimin/chapter3/stack.c	/^int push(SqStack stack, Elemtype e)$/;"	f
+push	c/yanweimin/chapter3/stack.h	/^int push(SqStack stack, Elemtype e)$/;"	f
+push	c/yanweimin/chapter6/stack.h	/^int push(SqStack stack, Elemtype e)$/;"	f
+push	c/yanweimin/tianqin/chapter3/Lstack.c	/^int push(LNode *lst, int x)$/;"	f
+push	c/yanweimin/tianqin/chapter3/Sqstack.c	/^int push(Sqstack *stack, int e)$/;"	f
+queueempty	c/yanweimin/chapter6/queue.h	/^int queueempty(Pqueue queue)$/;"	f
+queuelength	c/yanweimin/chapter3/queue.c	/^int queuelength(Pqueue queue)$/;"	f
+queuelength	c/yanweimin/chapter6/queue.h	/^int queuelength(Pqueue queue)$/;"	f
+quicksort	c/yanweimin/tianqin/paixu/sort.c	/^int quicksort(int *R, int l, int r)$/;"	f
+r	c/kechuang/r.geom/local_proto.h	/^  int r;$/;"	m	struct:__anon6
+r	c/kechuang/r.geom/local_proto.h	/^  int r;$/;"	m	struct:__anon7
+radial2cartesian	c/kechuang/r.geom/geom.c	/^int radial2cartesian(PATTERN* pattern)$/;"	f
+range	c/kechuang/r.geom/geom.c	/^float range(float* elevation)$/;"	f
+rank	c/yanweimin/chapter3/algo3_2_5_1.c	/^int rank(char c)$/;"	f
+raster_type	c/kechuang/r.geom/local_proto.h	/^  RASTER_MAP_TYPE raster_type;$/;"	m	struct:__anon1
+rchild	c/yanweimin/chapter6/bitreehead.h	/^	struct BiTNode *lchild,  *rchild;$/;"	m	struct:BiTNode	typeref:struct:BiTNode::
+rchild	c/yanweimin/chapter6/bitreehead.h	/^	struct BiThrNode *lchild, *rchild;$/;"	m	struct:BiThrNode	typeref:struct:BiThrNode::
+required	c/kechuang/r.geom/local_proto.h	/^	int required;$/;"	m	struct:__anon2
+reverse	c/tanhaoqiang/chapter6/exc5.c	/^int reverse(int *a, int n)$/;"	f
+reverse	c/tanhaoqiang/chapter8/example8_8.c	/^int reverse(int *a, int n)$/;"	f
+reversequeue	c/yanweimin/chapter3/queue.c	/^int reversequeue(Pqueue queue)$/;"	f
+reversequeue	c/yanweimin/chapter6/queue.h	/^int reversequeue(Pqueue queue)$/;"	f
+rotate	c/kechuang/r.geom/geom.c	/^int rotate(unsigned char binary)$/;"	f
+row_buffer_size	c/kechuang/r.geom/local_proto.h	/^GLOBAL int nrows, ncols, row_radius_size, row_buffer_size;$/;"	v
+row_radius_size	c/kechuang/r.geom/local_proto.h	/^GLOBAL int nrows, ncols, row_radius_size, row_buffer_size;$/;"	v
+rtag	c/yanweimin/chapter6/bitreehead.h	/^	PointerTag ltag, rtag;$/;"	m	struct:BiThrNode
+s	c/kechuang/openness.c	/^	struct bi_tuple s;$/;"	m	struct:directions	typeref:struct:directions::bi_tuple	file:
+saddle_point	c/tanhaoqiang/chapter6/exc8.c	/^int saddle_point(int a[][3], int row, int column)$/;"	f
+se	c/kechuang/openness.c	/^	struct bi_tuple se;$/;"	m	struct:directions	typeref:struct:directions::bi_tuple	file:
+search_cells	c/kechuang/r.geom/local_proto.h	/^GLOBAL int search_cells, skip_cells, step_cells, start_cells;$/;"	v
+search_distance	c/kechuang/r.geom/local_proto.h	/^GLOBAL double search_distance, search_step, skip_distance, flat_distance;$/;"	v
+search_step	c/kechuang/r.geom/local_proto.h	/^GLOBAL double search_distance, search_step, skip_distance, flat_distance;$/;"	v
+selectsort	c/yanweimin/tianqin/paixu/sort.c	/^int selectsort(int *R, int n)$/;"	f
+shape	c/kechuang/r.geom/geom.c	/^int shape(PATTERN* pattern, int pattern_size, float* azimuth, float* elongation, float* width)$/;"	f
+shift_buffers	c/kechuang/r.geom/memory.c	/^int shift_buffers(int row)$/;"	f
+sins	c/kechuang/r.geom/geom.c	/^static double sins[8]={0.7071067812,0,-0.7071067812,-1,-0.7071067812,0,0.7071067812,1}; \/* sinus *\/$/;"	v	file:
+sins	c/kechuang/r.geom/pattern.c	/^static double sins[8]={0.7071067812,0,-0.7071067812,-1,-0.7071067812,0,0.7071067812,1}; \/* sinus *\/$/;"	v	file:
+size	c/yanweimin/chapter3/mystack.c	/^	int size;$/;"	m	struct:__anon11	file:
+size	c/yanweimin/chapter3/stack.c	/^	int size;$/;"	m	struct:__anon15	file:
+size	c/yanweimin/chapter3/stack.h	/^	int size;$/;"	m	struct:__anon17
+size	c/yanweimin/chapter6/bitreehead.h	/^	int size;$/;"	m	struct:__anon21
+skip_cells	c/kechuang/r.geom/local_proto.h	/^GLOBAL int search_cells, skip_cells, step_cells, start_cells;$/;"	v
+skip_distance	c/kechuang/r.geom/local_proto.h	/^GLOBAL double search_distance, search_step, skip_distance, flat_distance;$/;"	v
+sort	c/tanhaoqiang/chapter4/exc4_11.c	/^int sort(int a, int b, int c, int d)$/;"	f
+sort	c/tanhaoqiang/chapter8/example8_27.c	/^int sort(char *p[], int n)$/;"	f
+sort1	c/tanhaoqiang/chapter6/example6_3.c	/^int sort1(int a[], int n)$/;"	f
+squeeze	c/page46.c	/^void squeeze( char s[], int c )$/;"	f
+stackempty	c/yanweimin/chapter3/stack.c	/^int stackempty(SqStack stack)$/;"	f
+stackempty	c/yanweimin/chapter3/stack.h	/^int stackempty(SqStack stack)$/;"	f
+stackempty	c/yanweimin/chapter6/stack.h	/^int stackempty(SqStack stack)$/;"	f
+stacklength	c/yanweimin/chapter3/mystack.c	/^int stacklength(SqStack stack)$/;"	f
+stacklength	c/yanweimin/chapter3/stack.c	/^int stacklength(SqStack stack)$/;"	f
+stacklength	c/yanweimin/chapter3/stack.h	/^int stacklength(SqStack stack)$/;"	f
+stacklength	c/yanweimin/chapter6/stack.h	/^int stacklength(SqStack stack)$/;"	f
+start_cells	c/kechuang/r.geom/local_proto.h	/^GLOBAL int search_cells, skip_cells, step_cells, start_cells;$/;"	v
+step_cells	c/kechuang/r.geom/local_proto.h	/^GLOBAL int search_cells, skip_cells, step_cells, start_cells;$/;"	v
+str	c/tanhaoqiang/chapter9/test.c	/^typedef struct str$/;"	s	file:
+strassign	c/yanweimin/chapter4/hstring.c	/^Status strassign(Phstring string, char *chars)$/;"	f
+strcompare	c/yanweimin/chapter4/hstring.c	/^int strcompare(Hstring s1, Hstring s2)$/;"	f
+strcopy	c/yanweimin/chapter4/hstring.c	/^Status strcopy(Phstring t, Hstring s)$/;"	f
+strcpy1	c/page104.c	/^void strcpy1(char *s, char *t)$/;"	f
+strempty	c/yanweimin/chapter4/hstring.c	/^int strempty(Hstring s)$/;"	f
+strindex	c/page68.c	/^int strindex( char s[], char t[])$/;"	f
+strlength	c/yanweimin/chapter4/hstring.c	/^int strlength(Hstring string)$/;"	f
+stru	c/yanweimin/chapter3/test.c	/^}*stru;$/;"	t	typeref:struct:__anon18	file:
+stu	c/tanhaoqiang/chapter10/example10_4.c	/^}stu={0,"Wangke",22};$/;"	v	typeref:struct:Student
+stu	c/tanhaoqiang/chapter9/example9_8.h	/^}stu;$/;"	t	typeref:struct:Student
+stu	c/tanhaoqiang/chapter9/linklist.h	/^}stu;$/;"	t	typeref:struct:Student
+stu2	c/tanhaoqiang/chapter10/example10_4.c	/^struct Student stu2;$/;"	v	typeref:struct:Student
+substring	c/yanweimin/chapter4/hstring.c	/^Status substring(Phstring new, Hstring s, int pos, int len)$/;"	f
+sw	c/kechuang/openness.c	/^	struct bi_tuple sw;$/;"	m	struct:directions	typeref:struct:directions::bi_tuple	file:
+t_char	c/yanweimin/chapter3/queue.c	/^	char t_char;$/;"	m	union:__anon12	file:
+t_char	c/yanweimin/chapter3/stack.c	/^	char t_char;$/;"	m	union:__anon14	file:
+t_char	c/yanweimin/chapter3/stack.h	/^	char t_char;$/;"	m	union:__anon16
+t_char	c/yanweimin/chapter6/bitreehead.h	/^	char t_char;$/;"	m	union:__anon19
+t_char	c/yanweimin/chapter6/bitreehead.h	/^	char t_char;$/;"	m	union:__anon20
+t_char	c/yanweimin/chapter6/bitreehead.h	/^	char t_char;$/;"	m	union:__anon22
+t_double	c/yanweimin/chapter3/queue.c	/^	double t_double;$/;"	m	union:__anon12	file:
+t_double	c/yanweimin/chapter3/stack.c	/^	double t_double;$/;"	m	union:__anon14	file:
+t_double	c/yanweimin/chapter3/stack.h	/^	double t_double;$/;"	m	union:__anon16
+t_double	c/yanweimin/chapter6/bitreehead.h	/^	double t_double;$/;"	m	union:__anon19
+t_double	c/yanweimin/chapter6/bitreehead.h	/^	double t_double;$/;"	m	union:__anon20
+t_double	c/yanweimin/chapter6/bitreehead.h	/^	double t_double;$/;"	m	union:__anon22
+t_int	c/yanweimin/chapter3/queue.c	/^	int t_int;$/;"	m	union:__anon12	file:
+t_int	c/yanweimin/chapter3/stack.c	/^	int t_int;$/;"	m	union:__anon14	file:
+t_int	c/yanweimin/chapter3/stack.h	/^	int t_int;$/;"	m	union:__anon16
+t_int	c/yanweimin/chapter6/bitreehead.h	/^	int t_int;$/;"	m	union:__anon19
+t_int	c/yanweimin/chapter6/bitreehead.h	/^	int t_int;$/;"	m	union:__anon20
+t_int	c/yanweimin/chapter6/bitreehead.h	/^	int t_int;$/;"	m	union:__anon22
+t_pbinode	c/yanweimin/chapter6/bitreehead.h	/^	BiTNode *t_pbinode;$/;"	m	union:__anon20
+t_pbinode	c/yanweimin/chapter6/bitreehead.h	/^	BiTNode *t_pbinode;$/;"	m	union:__anon22
+tail	c/yanweimin/chapter1/linklist/linklist.c	/^	Link head, tail;$/;"	m	struct:__anon10	file:
+tail	c/yanweimin/chapter3/queue.c	/^	int tail;$/;"	m	struct:__anon13	file:
+tail	c/yanweimin/chapter6/bitreehead.h	/^	int tail;$/;"	m	struct:__anon23
+ternary_rotate	c/kechuang/r.geom/geom.c	/^unsigned int ternary_rotate (unsigned int value)$/;"	f
+test1	c/io/iotest.c	/^void test1(void)$/;"	f
+test1	c/tanhaoqiang/chapter3/test3_2_4.c	/^int test1(void)$/;"	f
+test1	c/tanhaoqiang/chapter6/test1.c	/^int test1(void)$/;"	f
+test1	c/tanhaoqiang/chapter8/test8.c	/^int test1(void)$/;"	f
+test1	c/tanhaoqiang/chapter9/test.c	/^int test1()$/;"	f
+test1	c/tanhaoqiang/chapter9/test2.c	/^int test1(void)$/;"	f
+test1	c/test.c	/^void test1()$/;"	f
+test1	c/test2.c	/^void test1()$/;"	f
+test2	c/tanhaoqiang/chapter3/test3_2_4.c	/^int test2(void)$/;"	f
+test2	c/tanhaoqiang/chapter6/test1.c	/^int test2(void)$/;"	f
+test2	c/tanhaoqiang/chapter9/test.c	/^int test2()$/;"	f
+test2	c/test.c	/^void test2()$/;"	f
+test2	c/test2.c	/^void test2()$/;"	f
+test3	c/test.c	/^void test3()$/;"	f
+test4	c/test.c	/^void test4()$/;"	f
+test5	c/test.c	/^void test5()$/;"	f
+test6	c/test.c	/^void test6()$/;"	f
+test7	c/test.c	/^void test7()$/;"	f
+the_function	c/tanhaoqiang/chapter4/exc4_6.c	/^double the_function(double x)$/;"	f
+top	c/yanweimin/chapter3/mystack.c	/^	Elemtype *top;$/;"	m	struct:__anon11	file:
+top	c/yanweimin/chapter3/stack.c	/^	Elemtype *top;$/;"	m	struct:__anon15	file:
+top	c/yanweimin/chapter3/stack.h	/^	Elemtype *top;$/;"	m	struct:__anon17
+top	c/yanweimin/chapter6/bitreehead.h	/^	Elemtype *top;$/;"	m	struct:__anon21
+top	c/yanweimin/tianqin/chapter3/Sqstack.c	/^	int top;$/;"	m	struct:__anon24	file:
+triangle_area	c/tanhaoqiang/chapter3/example3_4.c	/^int triangle_area(double a, double b, double c)$/;"	f
+trim	c/exc1_18.c	/^int trim(char line[], int length)$/;"	f
+variance	c/kechuang/r.geom/geom.c	/^float variance(float* elevation, int pattern_size)$/;"	f
+visit	c/tanhaoqiang/chapter9/example9_8.h	/^int visit()$/;"	f
+visit	c/tanhaoqiang/chapter9/linklist.h	/^int visit()$/;"	f
+w	c/kechuang/openness.c	/^	struct bi_tuple w;$/;"	m	struct:directions	typeref:struct:directions::bi_tuple	file:
+window	c/kechuang/r.geom/local_proto.h	/^GLOBAL struct Cell_head window;$/;"	v	typeref:struct:Cell_head
+write_contrast_colors	c/kechuang/r.geom/memory.c	/^int write_contrast_colors (char* raster) {$/;"	f
+write_form_cat_colors	c/kechuang/r.geom/memory.c	/^int write_form_cat_colors (char* raster, CATCOLORS* ccolors) {$/;"	f
+x	c/kechuang/r.geom/local_proto.h	/^	double x[64],y[64]; \/* cartesian coordinates of geomorphon *\/$/;"	m	struct:__anon4
+y	c/kechuang/r.geom/local_proto.h	/^	double x[64],y[64]; \/* cartesian coordinates of geomorphon *\/$/;"	m	struct:__anon4
+yanghui	c/tanhaoqiang/chapter6/exc6.c	/^int yanghui(int row)$/;"	f
